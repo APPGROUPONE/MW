@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Group Website</title>
+  <style>
+    /* ====== Color Scheme ====== 
+       Main: #1e3a8a (deep blue) 
+       Accent: #f59e0b (gold) 
+       Background: #f9fafb (light gray) 
+    ============================ */
+
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: #f9fafb;
+      color: #1e3a8a;
+      line-height: 1.6;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background: #1e3a8a;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    nav h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #f59e0b;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #f59e0b;
+    }
+
+    /* Banner */
+    .banner {
+      background: url("team-banner.jpg") center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+    }
+    .banner h2 {
+      font-size: 2.5rem;
+      background: rgba(30,58,138,0.6);
+      padding: 0.5rem 1.5rem;
+      border-radius: 10px;
+    }
+
+    /* Intro Section */
+    .intro {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    .intro h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #f59e0b;
+    }
+    .intro p {
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <h1>Our Group</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="funfacts.html">Fun Facts</a></li>
+    </ul>
+  </nav>
+
+  <!-- Banner -->
+  <div class="banner">
+    <h2>Welcome to Our Group Website 🎉</h2>
+  </div>
+
+  <!-- Intro Section -->
+  <section class="intro">
+    <h3>About Us</h3>
+    <p>
+      We are a team of six creative and energetic individuals working together 
+      to share a little bit about ourselves. This site highlights fun facts, 
+      interesting stories, and what makes each of us unique. 
+      Explore our Members page to meet the team and check out the Fun Facts page 
+      to learn something surprising!
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Our Group | Made with ❤️ for our project</p>
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Group Website</title>
+  <style>
+    /* ====== Color Scheme ====== 
+       Main: #1e3a8a (deep blue) 
+       Accent: #f59e0b (gold) 
+       Background: #f9fafb (light gray) 
+    ============================ */
+
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: #f9fafb;
+      color: #1e3a8a;
+      line-height: 1.6;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background: #1e3a8a;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    nav h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #f59e0b;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #f59e0b;
+    }
+
+    /* Banner */
+    .banner {
+      background: url("team-banner.jpg") center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+    }
+    .banner h2 {
+      font-size: 2.5rem;
+      background: rgba(30,58,138,0.6);
+      padding: 0.5rem 1.5rem;
+      border-radius: 10px;
+    }
+
+    /* Intro Section */
+    .intro {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    .intro h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #f59e0b;
+    }
+    .intro p {
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <h1>Our Group</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="funfacts.html">Fun Facts</a></li>
+    </ul>
+  </nav>
+
+  <!-- Banner -->
+  <div class="banner">
+    <h2>Welcome to Our Group Website 🎉</h2>
+  </div>
+
+  <!-- Intro Section -->
+  <section class="intro">
+    <h3>About Us</h3>
+    <p>
+      We are a team of six creative and energetic individuals working together 
+      to share a little bit about ourselves. This site highlights fun facts, 
+      interesting stories, and what makes each of us unique. 
+      Explore our Members page to meet the team and check out the Fun Facts page 
+      to learn something surprising!
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Our Group | Made with ❤️ for our project</p>
+  </footer>
+
+</body>
+</html>
